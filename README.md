@@ -4,7 +4,7 @@ This repository explores how to implement visionOS basic features for the immers
 
 ## Simple Spatial Gesture
 
-This scene allows manipulation of cubes through both indirect gaze pinch and direct pinch. 
+This scene allows manipulation of cubes through both indirect gaze pinch and direct pinch in the shared space mode. 
 
 In this scene, we can manipulate the cubes via both indirect gaze pinch gesture and direct pinch. See script [SharedSpaceInputManager](./Assets/!/Scripts/SharedSpaceInputManager.cs) for implementation.
 
