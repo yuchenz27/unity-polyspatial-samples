@@ -9,6 +9,7 @@ Library: /Users/yuchen/Projects/unity-projects/VP_SharedSpaceApp/Temp/BurstOutpu
 --float-precision=Standard
 --target-framework=NetFramework
 --float-mode=Fast
+--assembly-defines=Assembly-CSharp;
 --assembly-defines=FlatSharp.Runtime;
 --assembly-defines=FlatSharp.Runtime.Extensions;
 --assembly-defines=Mono.Security;
@@ -67,6 +68,7 @@ Library: /Users/yuchen/Projects/unity-projects/VP_SharedSpaceApp/Temp/BurstOutpu
 --dump=Function
 --float-precision=Standard
 --target-framework=NetFramework
+--assembly-defines=Assembly-CSharp;
 --assembly-defines=FlatSharp.Runtime;
 --assembly-defines=FlatSharp.Runtime.Extensions;
 --assembly-defines=Mono.Security;
