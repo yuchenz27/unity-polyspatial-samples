@@ -1,6 +1,6 @@
 # visionOS_Unity_ImmersiveApp
 
-This repository explores how to implement visionOS basic features for the shared space mode.
+This repository explores how to implement visionOS basic features for the immersive mode.
 
 ## Simple Spatial Gesture
 
