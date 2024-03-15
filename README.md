@@ -1,4 +1,4 @@
-# visionOS_Unity_SharedSpaceApp
+# visionOS_Unity_ImmersiveApp
 
 This repository explores how to implement visionOS basic features for the shared space mode.
 
