@@ -8,10 +8,14 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/!/Scenes/SimpleSpatialGesture.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/!/Scenes/CoachingUI.unity
+    guid: a4d1f28a44e434f80b54b3c0c63dbcc7
   - enabled: 1
-    path: Assets/!/Scenes/SimpleImmersiveSpace.unity
-    guid: a3dd7df117b774c3d8fd4999c04bbea4
+    path: Assets/!/Scenes/Plane Detection.unity
+    guid: 4fb7c686cf189469aa4d8fd2611f2477
   m_configObjects:
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 6e4f062a432624238a9db55c93ff233a, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 490f30f928a9e48ca9b90e447524da8e, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 89dc4a69ad2ce456c9a7907a990cd863, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 179963b29db5141cba41b5c344a0f8cd, type: 2}
