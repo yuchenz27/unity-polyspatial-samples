@@ -2,7 +2,7 @@
 
 This repository explores how to implement visionOS basic features for the immersive mode.
 
-## Simple Spatial Gesture
+## Simple Spatial Gesture Scene
 
 This scene allows manipulation of cubes through both indirect gaze pinch and direct pinch in the shared space mode. 
 
@@ -14,3 +14,13 @@ In this scene, we can manipulate the cubes via both indirect gaze pinch gesture 
 </p>
 
 Use `VisionOSHoeverEffect` and `VisionOSGroundingShadow` to add hover effects and grouding shadows to the cubes.
+
+## Simple Immersive Space Scene
+
+This scene is the minimal setup for an immersive space.
+
+<img width="1208" alt="image" src="https://github.com/yuchenz27/visionOS_Unity_ImmersiveApp/assets/44870300/e3642a08-8ce1-404e-a4ab-1fb4661d32ed">
+
+A floating cube staying fixed in the physical environment.
+
+![ezgif-1-79796de538](https://github.com/yuchenz27/visionOS_Unity_ImmersiveApp/assets/44870300/a9e0bd34-a44d-4de4-8b08-96a01c076b58)
