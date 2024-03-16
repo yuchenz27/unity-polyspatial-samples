@@ -11,9 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/!/Scenes/CoachingUI.unity
     guid: a4d1f28a44e434f80b54b3c0c63dbcc7
-  - enabled: 1
+  - enabled: 0
     path: Assets/!/Scenes/Plane Detection.unity
     guid: 4fb7c686cf189469aa4d8fd2611f2477
+  - enabled: 1
+    path: Assets/!/Scenes/Hand Tracking.unity
+    guid: 5554f1ee8228e402ca3f57c765028b7b
+  - enabled: 0
+    path: Assets/Samples/PolySpatial/Scenes/MixedReality.unity
+    guid: 4062257bd31be4dc980c3241c72cef79
   m_configObjects:
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 6e4f062a432624238a9db55c93ff233a, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 490f30f928a9e48ca9b90e447524da8e, type: 2}

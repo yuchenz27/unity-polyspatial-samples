@@ -142,6 +142,7 @@ namespace PolySpatial.Samples
 
         void OnTrackingAcquired(XRHand hand)
         {
+            Debug.Log($"OnTrackingAcquired: {hand.handedness}");
             switch (hand.handedness)
             {
                 case Handedness.Left:
@@ -156,6 +157,7 @@ namespace PolySpatial.Samples
 
         void OnTrackingLost(XRHand hand)
         {
+            Debug.Log($"OnTrackingLost: {hand.handedness}");
             switch (hand.handedness)
             {
                 case Handedness.Left:

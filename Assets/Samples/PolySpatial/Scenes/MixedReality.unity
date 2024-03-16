@@ -823,9 +823,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 544090651}
     m_Modifications:
+    - target: {fileID: 7775179566916585927, guid: 19f258fa481d6456dbe0b2e8ef22520f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8135190803931719698, guid: 19f258fa481d6456dbe0b2e8ef22520f, type: 3}
       propertyPath: m_Name
       value: Instructions
+      objectReference: {fileID: 0}
+    - target: {fileID: 8135190803931719698, guid: 19f258fa481d6456dbe0b2e8ef22520f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8912008226953736872, guid: 19f258fa481d6456dbe0b2e8ef22520f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1099,6 +1107,9 @@ MonoBehaviour:
     m_Bits: 4294967295
   OpenWindowOnLoad: 1
   m_ShowVolumeCameraEventsFoldout: 0
+  OnWindowEvent:
+    m_PersistentCalls:
+      m_Calls: []
   OnWindowOpened:
     m_PersistentCalls:
       m_Calls: []

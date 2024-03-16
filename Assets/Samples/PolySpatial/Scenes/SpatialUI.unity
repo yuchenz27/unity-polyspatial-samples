@@ -2033,6 +2033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 8883965876045361749, guid: cef99035c800c4eceb2ea0971f087e83, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3571,6 +3575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CropMark
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78a576d61db51294b9fab1562a56efd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3660,6 +3668,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 78a576d61db51294b9fab1562a56efd8, type: 3}
       propertyPath: m_Name
       value: CropMark
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78a576d61db51294b9fab1562a56efd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4326,6 +4338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9d3910dead62164bbb87843150064af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4634,11 +4650,14 @@ MonoBehaviour:
   m_Dimensions: {x: 1, y: 1, z: 1}
   m_IsUniformScale: 0
   m_OutputConfiguration: {fileID: 11400000, guid: c141c6d819fe54420b1c524360b3915b, type: 2}
-  CullingMask:
+  m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   OpenWindowOnLoad: 1
   m_ShowVolumeCameraEventsFoldout: 0
+  OnWindowEvent:
+    m_PersistentCalls:
+      m_Calls: []
   OnWindowOpened:
     m_PersistentCalls:
       m_Calls: []
